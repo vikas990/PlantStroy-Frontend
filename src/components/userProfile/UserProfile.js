@@ -3,6 +3,7 @@ import "./UserProfile.css";
 import axios from "axios";
 import { UserContext } from "../../App";
 import { useParams } from "react-router-dom";
+import { metaTitle } from "../../../utils/MetaTitle";
 
 const UserProfile = () => {
   const { state, dispatch } = useContext(UserContext);
@@ -81,6 +82,8 @@ const UserProfile = () => {
     });
     setIsFollowed(true);
   };
+
+  metaTitle(userData.name);
 
   return (
     <div className="mainContainer">
