@@ -11,7 +11,7 @@ import { UserContext } from "../../App";
 import Swal from "sweetalert2";
 import { Link } from "react-router-dom";
 import EditPost from "../EditPost/EditPost";
-import { metaTitle } from "../../../utils/MetaTitle";
+import { metaTitle } from "../../utils/MetaTitle";
 
 const Home = () => {
   metaTitle("Plant Story - Home");

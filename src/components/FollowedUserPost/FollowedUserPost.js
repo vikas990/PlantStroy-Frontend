@@ -9,7 +9,7 @@ import axios from "axios";
 import { UserContext } from "../../App";
 import Swal from "sweetalert2";
 import { Link } from "react-router-dom";
-import { metaTitle } from "../../../utils/MetaTitle";
+import { metaTitle } from "../../utils/MetaTitle";
 
 const FollowedUserPost = () => {
   metaTitle("Followers Post");

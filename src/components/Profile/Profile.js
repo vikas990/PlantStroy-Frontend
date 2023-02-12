@@ -3,7 +3,7 @@ import "./Profile.css";
 import axios from "axios";
 import { UserContext } from "../../App";
 import { TextField } from "@mui/material";
-import { metaTitle } from "../../../utils/MetaTitle";
+import { metaTitle } from "../../utils/MetaTitle";
 
 const Profile = () => {
   metaTitle("Profile");
