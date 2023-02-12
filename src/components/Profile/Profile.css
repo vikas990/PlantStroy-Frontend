@@ -1,0 +1,74 @@
+.mainContainer {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.ProfileContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.125rem 0;
+  border-bottom: 0.062rem solid grey;
+  align-items: center;
+}
+
+.ProfileContainer__profileImage {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+}
+
+.ProfileContainer__AccountDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 108%;
+}
+
+.profileGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profileGallery__Image {
+  width: 30%;
+}
+
+.EditProfile__button {
+  margin-top: 5%;
+  margin-left: 10%;
+  background-color: #0f4c37;
+  color: white;
+  width: 50%;
+  padding: 5%;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.2rem;
+  margin-bottom: 5%;
+}
+
+.EditProfile__button:hover {
+  margin-top: 5%;
+  background-color: transparent;
+  color: #0f4c37;
+  border: 0.062rem solid #0f4c37;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+/* Tablet */
+@media only screen and (max-width: 48rem) {
+  .mainContainer {
+    max-width: 100vh;
+    margin: 0 0;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 26.562rem) {
+  .ProfileContainer {
+    display: block;
+    text-align: center;
+  }
+  .ProfileContainer__AccountDetails {
+    width: auto;
+  }
+}

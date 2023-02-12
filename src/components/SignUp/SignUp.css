@@ -1,0 +1,58 @@
+.SignupCard {
+  height: auto;
+  text-align: center;
+}
+
+.SignupCard__heading {
+  font-size: 4.375rem;
+  font-family: "Grand Hotel", cursive;
+  text-align: center;
+}
+
+.SignupCard__input {
+  width: 70%;
+}
+
+.SignupCard__button {
+  margin-top: 5%;
+  background-color: #0f4c37;
+  color: white;
+  width: 30%;
+  padding: 2%;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.2rem;
+  margin-bottom: 5%;
+}
+
+.SignupCard__button:hover {
+  margin-top: 5%;
+  background-color: transparent;
+  color: #0f4c37;
+  border: 0.062rem solid #0f4c37;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+h5 {
+  margin-top: 0.5rem;
+}
+
+.closeIcon {
+  margin-left: 90%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.signUpError {
+  color: red;
+}
+
+@media screen and (max-width: 48rem) {
+  .closeIcon {
+    margin-left: 90%;
+    margin-top: 10%;
+    cursor: pointer;
+    color: black;
+  }
+}

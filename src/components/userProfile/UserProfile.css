@@ -1,0 +1,41 @@
+.ProfileFollow__button {
+  margin-top: 5%;
+  background-color: #0f4c37;
+  color: white;
+  width: 40%;
+  padding: 5%;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.2rem;
+  margin-bottom: 5%;
+}
+
+.ProfileFollow__button:hover {
+  margin-top: 5%;
+  background-color: transparent;
+  color: #0f4c37;
+  border: 0.062rem solid #0f4c37;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+.ProfileUnFollow__button {
+  margin-top: 5%;
+  background-color: #0f4c37;
+  color: white;
+  width: 50%;
+  padding: 5%;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.2rem;
+  margin-bottom: 5%;
+}
+
+.ProfileUnFollow__button:hover {
+  margin-top: 5%;
+  background-color: transparent;
+  color: #0f4c37;
+  border: 0.062rem solid #0f4c37;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}

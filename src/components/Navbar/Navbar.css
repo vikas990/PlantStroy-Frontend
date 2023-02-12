@@ -1,0 +1,113 @@
+.Container {
+  display: flex;
+  background-color: #0f4c37;
+  color: white;
+}
+
+.NavContainer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: #0f4c37;
+  color: white;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-family: "Grand Hotel", cursive;
+}
+
+.NavContainer__links {
+  list-style: none;
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavContainer__links li {
+  cursor: pointer;
+}
+
+.NavContainer__links li a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavContainer__Input {
+  margin-top: 8%;
+  border: 0.062rem solid white;
+  border-radius: 0.062rem;
+}
+
+.NavContainer__Input--icon {
+  color: white;
+}
+
+.menu {
+  display: none;
+}
+
+.drawer {
+  color: white;
+}
+.closeIcon {
+  color: white;
+}
+/* Media Query */
+
+/* Tablet */
+@media only screen and (max-width: 48rem) {
+  .logo {
+    margin-right: 35%;
+  }
+  .NavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .NavContainer__links {
+    display: none;
+  }
+  .drawer {
+    text-align: center;
+  }
+
+  .drawer li a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20%;
+  }
+
+  .drawer li {
+    margin-top: 20%;
+  }
+  .menu {
+    display: block;
+  }
+  .menuIcon {
+    color: white;
+  }
+  .closeIcon {
+    color: white;
+    margin-right: -80%;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 26.562rem) {
+  .Container {
+    display: block;
+  }
+  .NavContainer__Input {
+    width: 100vw;
+    height: 10%;
+  }
+  .logo {
+    margin-right: 0;
+  }
+}

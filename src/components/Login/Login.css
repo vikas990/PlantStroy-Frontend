@@ -1,0 +1,63 @@
+.LoginCard {
+  height: auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 4.375rem;
+  font-family: "Grand Hotel", cursive;
+  text-align: center;
+}
+
+.LoginCard__input {
+  width: 70%;
+}
+
+.LoginCard__button {
+  margin-top: 5%;
+  background-color: #0f4c37;
+  color: white;
+  width: 30%;
+  padding: 2%;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.2rem;
+  margin-bottom: 5%;
+}
+
+.LoginCard__button:hover {
+  margin-top: 5%;
+  background-color: transparent;
+  color: #0f4c37;
+  border: 0.062rem solid #0f4c37;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+h5 {
+  margin-top: 0.5rem;
+}
+
+h5 span {
+  color: blue;
+  cursor: pointer;
+}
+
+.closeIcon {
+  margin-left: 90%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.loginError {
+  color: red;
+}
+
+@media screen and (max-width: 48rem) {
+  .closeIcon {
+    margin-left: 90%;
+    margin-top: 10%;
+    cursor: pointer;
+    color: black;
+  }
+}
